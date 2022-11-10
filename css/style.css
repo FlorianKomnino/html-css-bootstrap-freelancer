@@ -17,8 +17,16 @@
     height: 50px;
 }
 
+.h-25px {
+    height: 25px;
+}
+
 .custom-bg-color-acqua {
     background-color: #1abc9c;
+}
+
+.custom-bg-color-grey {
+    background-color: #3a546d;
 }
 
 .bg-white {
