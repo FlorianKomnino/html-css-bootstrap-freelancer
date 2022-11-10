@@ -1,8 +1,17 @@
 
 /* general selectors */
+.custom-container{
+    max-width: 768px;
+    margin: 0 auto;
+}
 
 .h-300px {
     height: 300px;
+}
+
+.h-200px {
+    height: 200px;
+
 }
 
 .h-100px {
@@ -64,3 +73,5 @@
     height: 280px;
     background-color: magenta;
 }
+
+
