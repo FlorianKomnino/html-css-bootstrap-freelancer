@@ -5,6 +5,10 @@
     margin: 0 auto;
 }
 
+.h-400px {
+    height: 400px;
+}
+
 .h-300px {
     height: 300px;
 }
@@ -68,10 +72,42 @@
 }
 
 /* main selectors */
-
 #smiling-guy-pic {
     height: 280px;
-    background-color: magenta;
 }
 
+#custom-cabin {
+    background-image: url(../img/cabin.png);
+    background-size: contain;
+    background-position: center;
+}
 
+#custom-cake {
+    background-image: url(../img/cake.png);
+    background-size: contain;
+    background-position: center;
+}
+
+#custom-circus {
+    background-image: url(../img/circus.png);
+    background-size: contain;
+    background-position: center;
+}
+
+#custom-game {
+    background-image: url(../img/game.png);
+    background-size: contain;
+    background-position: center;
+}
+
+#custom-safe {
+    background-image: url(../img/safe.png);
+    background-size: contain;
+    background-position: center;
+}
+
+#custom-submarine {
+    background-image: url(../img/submarine.png);
+    background-size: contain;
+    background-position: center;
+}
