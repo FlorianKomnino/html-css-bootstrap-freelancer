@@ -86,36 +86,69 @@
 
 #custom-cabin {
     background-image: url(../img/cabin.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 #custom-cake {
     background-image: url(../img/cake.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 #custom-circus {
     background-image: url(../img/circus.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 #custom-game {
     background-image: url(../img/game.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 #custom-safe {
     background-image: url(../img/safe.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 #custom-submarine {
     background-image: url(../img/submarine.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+    #custom-cabin {
+        height: 300px;
+    }
+    
+    #custom-cake {
+        height: 300px;
+    }
+    
+    #custom-circus {
+        height: 300px;
+    }
+    
+    #custom-game {
+        height: 300px;
+    }
+    
+    #custom-safe {
+        height: 300px;
+    }
+    
+    #custom-submarine {
+        height: 300px;
+    }
+    
 }
