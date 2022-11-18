@@ -21,33 +21,35 @@
 <body>
     <header class="custom-header-bg-color py-3">
         <div class="container-sm">
-            <div class="row">
-                <nav class="navbar navbar-expand-md">
-                    <div class="container-fluid">
-                        <a class="navbar-brand text-white text-uppercase fw-bolder" href="#">Start Bootstrap</a>
-                        <button class="navbar-toggler text-bg-light" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            </ul>
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    <nav class="navbar navbar-expand-md">
+                        <div class="container-fluid">
+                            <a class="navbar-brand text-white text-uppercase fw-bolder" href="#">Start Bootstrap</a>
+                            <button class="navbar-toggler text-bg-light" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                </ul>
 
-                            <ul class="navbar-nav mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link text-white text-uppercase fw-bold" href="#">portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white text-uppercase fw-bold" href="#">about</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link text-white text-uppercase fw-bold" href="#">contact</a>
-                                </li>
-                            </ul>
+                                <ul class="navbar-nav mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white text-uppercase fw-bold" href="#">portfolio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white text-uppercase fw-bold" href="#">about</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link text-white text-uppercase fw-bold" href="#">contact</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </nav>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
@@ -166,30 +168,39 @@
         </section>
 
         <!-- form section -->
-        <section class="py-2">
+        <section id="form" class="py-2">
             <div class="custom-container">
                 <div class="row justify-content-center">
-                    <div class="col-2 h-50px bg-red">
+                    <div class="col-8">
+                        <p class="h-50px m-0 text-uppercase fs-1 fw-bold text-center">
+                            contact me
+                        </p>
                         <p>
 
                         </p>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-3 h-50px bg-blue">
-                        <p>
-
-                        </p>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-6 col-md-8 bg-green">
-                        <p class="h-300px">
-
-                        </p>
-                        <p class="h-100px">
-
-                        </p>
+                        <div>
+                            <label for="exampleFormControlInput1" class="form-label"></label>
+                            <input type="email" class="form-control border-0" id="exampleFormControlInput1" placeholder="Name">
+                            <hr class="my-1">
+                        </div>
+                        <div>
+                            <label for="exampleFormControlInput1" class="form-label"></label>
+                            <input type="email" class="form-control border-0" id="exampleFormControlInput1" placeholder="Email Address">
+                            <hr class="my-1">
+                        </div>
+                        <div>
+                            <label for="exampleFormControlInput1" class="form-label"></label>
+                            <input type="email" class="form-control border-0" id="exampleFormControlInput1" placeholder="Phone Number">
+                            <hr class="my-1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label"></label>
+                            <textarea class="form-control border-0 pt-0" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                            <hr class="my-1">
+                        </div>
+                        <div class="btn custom-bg-color-acqua my-4 text-white">
+                            Send
+                        </div>
                     </div>
                 </div>
             </div>
@@ -246,15 +257,15 @@
 
                     <div class="col-12 col-md-4">
                         <div class="row justify-content-center mb-2">
-                            <div class="col-6 h-25px">
-                                <p class="text-uppercase text-center text-white fs-4">
+                            <div class="col h-25px">
+                                <p class="text-uppercase text-center text-white fs-4 pb-3">
                                     about freelancer
                                 </p>
                             </div>
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-10 h-75px">
-                                <p class="text-center text-white fw-bold">
+                                <p class="text-center text-white fw-bold fs-5 mt-2">
                                     Freelancer is a free to use, open source bootstrap theme created by <span class="text-green">Start Bootstrap</span>.
                                 </p>
                             </div>
